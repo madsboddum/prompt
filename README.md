@@ -7,7 +7,7 @@ A simple prompt for bash.
 Hello World
 ```
 
-# Installation
+## Installation
 
 Run the following command in your terminal:
 
@@ -17,8 +17,14 @@ curl -s -o ~/.bash_profile https://raw.githubusercontent.com/madsboddum/prompt/m
 
 Works for both initial installation and updating.
 
+## Updating
+
 For easily updating to the latest version, you can also run the following command:
 
 ```bash
-update-bash-profile
+update_bash_profile
 ```
+
+## Style
+
+Googles [Shell Style Guide](https://google.github.io/styleguide/shellguide.html) is used as a reference for the style of the code.
