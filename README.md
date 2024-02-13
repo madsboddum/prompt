@@ -1,6 +1,14 @@
-# Requirements
-* A powerline-patched font used by your console emulator.
-* Git bash (comes with Git for Windows)
+# prompt
+
+A simple prompt for bash.
+
+```
+17:05 madsboddum@Madss-MacBook-Air.local:/Users/madsboddum> echo "Hello World"
+Hello World
+```
 
 # Installation
-Add the following to `~/.bashrc`: `source <path/to/git-prompt.sh>`.
+
+```bash
+wget -P ~/ https://raw.githubusercontent.com/madsboddum/prompt/master/.bash_profile && source ~/.bash_profile
+```
