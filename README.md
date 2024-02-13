@@ -12,7 +12,7 @@ Hello World
 Run the following command in your terminal:
 
 ```bash
-wget -O ~/.bash_profile https://raw.githubusercontent.com/madsboddum/prompt/master/.bash_profile && source ~/.bash_profile
+curl -s -o ~/.bash_profile https://raw.githubusercontent.com/madsboddum/prompt/master/.bash_profile && source ~/.bash_profile
 ```
 
 Works for both initial installation and updating.
