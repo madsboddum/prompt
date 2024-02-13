@@ -16,3 +16,9 @@ curl -s -o ~/.bash_profile https://raw.githubusercontent.com/madsboddum/prompt/m
 ```
 
 Works for both initial installation and updating.
+
+For easily updating to the latest version, you can also run the following command:
+
+```bash
+update-bash-profile
+```
