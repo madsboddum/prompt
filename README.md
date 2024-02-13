@@ -9,6 +9,10 @@ Hello World
 
 # Installation
 
+Run the following command in your terminal:
+
 ```bash
-wget -P ~/ https://raw.githubusercontent.com/madsboddum/prompt/master/.bash_profile && source ~/.bash_profile
+wget -O ~/.bash_profile https://raw.githubusercontent.com/madsboddum/prompt/master/.bash_profile && source ~/.bash_profile
 ```
+
+Works for both initial installation and updating.
