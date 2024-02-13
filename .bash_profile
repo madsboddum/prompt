@@ -10,5 +10,3 @@ function update-bash-profile() {
         echo "Done!"
 }
 
-echo "Run 'update-bash-profile' to update bash profile to the latest version."
-
