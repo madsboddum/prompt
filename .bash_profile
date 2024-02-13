@@ -10,3 +10,4 @@ function update-bash-profile() {
         echo "Done!"
 }
 
+alias ll="ls -lah"
