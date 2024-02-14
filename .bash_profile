@@ -1,7 +1,7 @@
 GREEN="\[$(tput setaf 2)\]"
 RESET="\[$(tput sgr0)\]"
 
-export PS1="${GREEN}\A \u@\H:\W${RESET}> "
+export PS1="${GREEN}\A \u@\H:\$(pwd)${RESET}> "
 
 function _download() {
   if command -v curl &> /dev/null; then
