@@ -1,3 +1,6 @@
+# Load ~/.bashrc if it exists: https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html
+if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
+
 GREEN="\[$(tput setaf 2)\]"
 RESET="\[$(tput sgr0)\]"
 
